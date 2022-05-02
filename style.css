@@ -1,0 +1,125 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+body {
+  display: inline-block;
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.625em;
+  background-color: var(--secondary-color);
+}
+.inline {
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(210, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.slaideris {
+    width: calc(100% - 80px);
+    margin: 40px;
+    margin-top: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.langas {
+    width: 100%;
+    overflow: hidden;
+}
+.sarasas-liniuote {
+    display: flex;
+    gap: 5px;
+    /* width: calc(11 / 3 * 100%); */
+    transition: all 2s;
+    /* transform: translateX(-37.5%); */
+}
+.skaidre {
+    display: flex;
+    width: calc(100% / 11);
+    background-color: #fff;
+    padding: 10px;
+}
+.skaidre h2,
+.skaidre p {
+    padding-top: 20px;
+}
+.paveikslas {
+    width: 100%;
+    overflow: hidden;
+}
+.img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.navigacija {
+    display: flex; 
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+}
+.rodykle {
+    /* background-color: rgb(247, 161, 221); */
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    /* border: 3px solid blueviolet; */
+    cursor: pointer;
+}
+.rodykle:hover {
+    /* box-shadow: 0 0 10px rgb(103, 4, 73); */
+    box-shadow: 0 0 10px blue;
+}
+.kairen {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    transform: rotate(45deg);
+}
+.desinen {
+    width: 20px;
+    height: 20px;
+    margin-left: -4px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    transform: rotate(-45deg);
+}
+/* .rodykle:hover > .desinen {
+    border-right: 3px solid blueviolet;
+    border-bottom: 3px solid blueviolet; 
+} */
+.burbulai {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.burbuliukas {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.burbuliukas:hover {
+    transform: scale(1.4);
+    background-color: aqua;
+}
+.aktyvus {
+    background-color: aqua;
+    box-shadow: 0 0 15px blue;
+    /* width: 12px; */
+    /* height: 12px; */
+    transform: scale(1.4);
+}
