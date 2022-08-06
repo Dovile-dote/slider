@@ -29,7 +29,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid black; */
 }
 .langas {
     width: 100%;
@@ -38,9 +37,7 @@ body {
 .sarasas-liniuote {
     display: flex;
     gap: 5px;
-    /* width: calc(11 / 3 * 100%); */
     transition: all 2s;
-    /* transform: translateX(-37.5%); */
 }
 .skaidre {
     display: flex;
@@ -68,16 +65,13 @@ body {
     margin-top: 40px;
 }
 .rodykle {
-    /* background-color: rgb(247, 161, 221); */
     width: 40px;
     height: 40px;
     padding: 10px;
     border-radius: 50%;
-    /* border: 3px solid blueviolet; */
     cursor: pointer;
 }
 .rodykle:hover {
-    /* box-shadow: 0 0 10px rgb(103, 4, 73); */
     box-shadow: 0 0 10px blue;
 }
 .kairen {
@@ -96,10 +90,6 @@ body {
     border-bottom: 3px solid black;
     transform: rotate(-45deg);
 }
-/* .rodykle:hover > .desinen {
-    border-right: 3px solid blueviolet;
-    border-bottom: 3px solid blueviolet; 
-} */
 .burbulai {
     display: flex;
     align-items: center;
@@ -119,7 +109,5 @@ body {
 .aktyvus {
     background-color: aqua;
     box-shadow: 0 0 15px blue;
-    /* width: 12px; */
-    /* height: 12px; */
     transform: scale(1.4);
 }
